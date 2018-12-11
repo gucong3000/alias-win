@@ -1,0 +1,11 @@
+{
+	"`%s': invalid alias name": "‘\u001b[1m%s\u001b[0m’: invalid alias name",
+	"%s: usage: ": "%s: usage: ",
+	"%s: not found": "%s: not found",
+	"%s: invalid option": "%s: invalid option",
+	"%s is aliased to `%s'": "%s is aliased to ‘\u001b[1m%s\u001b[0m’\n",
+	"alias [-p] [name[=value] ... ]": "alias [-p] [name[=value] ... ]",
+	"unalias [-a] name [name ...]": "unalias [-a] name [name ...]",
+	"Define or display aliases.": "Define or display aliases.\n\n    Without arguments, ‘\u001b[1malias\u001b[0m’ prints the list of aliases in the reusable\n    form ‘\u001b[1malias NAME=VALUE\u001b[0m’ on standard output.\n\n    Otherwise, an alias is defined for each NAME whose VALUE is given.\n    A trailing space in VALUE causes the next word to be checked for\n    alias substitution when the alias is expanded.\n\n    Options:\n      -p\tprint all defined aliases in a reusable format\n\n    Exit Status:\n    alias returns true unless a NAME is supplied for which no alias has been\n    defined.",
+	"Remove each NAME from the list of defined aliases.": "Remove each NAME from the list of defined aliases.\n\n    Options:\n      -a\tremove all alias definitions\n\n    Return success unless a NAME is not an existing alias."
+}

@@ -1,0 +1,11 @@
+{
+	"`%s': invalid alias name": "„%s“: neplatný názov aliasu",
+	"%s: usage: ": "%s: použitie ",
+	"%s: not found": "%s: nenájdené",
+	"%s: invalid option": "%s: neplatná voľba",
+	"%s is aliased to `%s'": "%s má alias „%s“\n",
+	"alias [-p] [name[=value] ... ]": "alias [-p] [názov[=hodnota] ... ]",
+	"unalias [-a] name [name ...]": "unalias [-a] názov [názov ...]",
+	"Define or display aliases.": "Definovať alebo zobraziť aliasy.\n\n    Bez argumentov vypíše všetky definované aliasy vo formáte, ktorý je\n    možné znova použiť v tvare NÁZOV=HODNOTA na štandardný výstup.\n\n    Inak definuje alias pre každý NÁZOV, ktorého HODNOTA je zadaná.\n    Medzera na konci HODNOTY spôsobí, že sa v ďalšom slove\n    skontroluje substitúcia aliasu pri expanzii aliasu.\n\n    Voľby:\n      -p\tVypíše všetky definované aliasy vo formáte, ktorý je možné\n        \tznova použiť\n\n    Návratová hodnota:\n    Vráti vždy pravdu ak nebol zadaný NÁZOV, pre ktorý nie je definovaný alias.",
+	"Remove each NAME from the list of defined aliases.": "Odstrániť NÁZVY zo zoznamu definovaných aliasov.\n\n    Voľby:\n      -a\todstráni všetky definície aliasov.\n\n    Návratová hodnota:\n    Vráti 0 ak nebol zadaný NÁZOV, pre ktorý nie je definovaný alias."
+}

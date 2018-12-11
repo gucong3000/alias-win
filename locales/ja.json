@@ -1,0 +1,11 @@
+{
+	"`%s': invalid alias name": "`%s': 無効なエイリアス名です",
+	"%s: usage: ": "%s: 使用法: ",
+	"%s: not found": "%s: 見つかりません",
+	"%s: invalid option": "%s: 無効なオプションです",
+	"%s is aliased to `%s'": "%s は `%s' のエイリアスです\n",
+	"alias [-p] [name[=value] ... ]": "alias [-p] [name[=value] ... ]",
+	"unalias [-a] name [name ...]": "unalias [-a] name [name ...]",
+	"Define or display aliases.": "エイリアスを定義または表示します。\n\n    引数がない場合、`alias` は再使用可能なエイリアス一覧を `alias 名前=値'\n    形式で標準出力に表示します。\n\n    そうでなければ、与えられた名前と値でエイリアスを定義します。値の後続に空白\n    が存在する場合は次の語はエイリアス展開時にエイリアス代入対象として確認され\n    ます。\n\n    オプション:\n      -p\tすべての定義されたエイリアスを再利用可能な形式で表示します\n\n    終了ステータス:\n    alias は与えられた名前でエイリアスが定義されなかった場合を除き true を返します。",
+	"Remove each NAME from the list of defined aliases.": "定義されたエイリアス一覧から各名前のエイリアスを削除します。\n\n    Options:\n      -a\tすべてのエイリアス定義を削除します。\n\n    名前がエイリアスに存在しない場合を除き true を返します。"
+}

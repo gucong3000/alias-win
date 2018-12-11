@@ -1,0 +1,11 @@
+{
+	"`%s': invalid alias name": "`%s': 无效的别名",
+	"%s: usage: ": "%s: 用法: ",
+	"%s: not found": "%s: 未找到",
+	"%s: invalid option": "%s: 无效选项",
+	"%s is aliased to `%s'": "%s 是 `%s' 的别名\n",
+	"alias [-p] [name[=value] ... ]": "alias [-p] [名称[=值] ... ]",
+	"unalias [-a] name [name ...]": "unalias [-a] 名称 [名称 ...]",
+	"Define or display aliases.": "定义或显示别名。\n\n    不带参数时，`alias' 以可重用的格式\n    `alias 名称=值'在标准输出设备上打印别名列表。\n\n    否则，对于每个给定值的名称定义一个别名。\n    值末尾的空格会使下一个词被检测作为别名替换展开。\n\n    选项：\n      -p\t以可重用的格式打印所有的已定义的别名\n\n    退出状态：\n    除非一个没有定义的名字被作为参数提供，否则 alias\n    返回值为真。",
+	"Remove each NAME from the list of defined aliases.": "从别名定义列表中删除每一个“名字”。\n\n    选项：\n      -a\t删除所有的别名定义。\n\n    返回成功，除非“名字“不是一个已存在的别名。"
+}

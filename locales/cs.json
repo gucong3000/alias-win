@@ -1,0 +1,11 @@
+{
+	"`%s': invalid alias name": "„%s“: chybný název aliasu",
+	"%s: usage: ": "%s: užití: ",
+	"%s: not found": "%s: nenalezeno",
+	"%s: invalid option": "%s: chybný přepínač",
+	"%s is aliased to `%s'": "%s je alias na „%s“\n",
+	"alias [-p] [name[=value] ... ]": "alias [-p] [název[=hodnota] …]",
+	"unalias [-a] name [name ...]": "unalias [-a] název [název…]",
+	"Define or display aliases.": "Definuje nebo zobrazí aliasy.\n\n    „alias“ bez argumentů vypíše na standardní výstup seznam aliasů ve znovu\n    použitelném formátu NÁZEV=HODNOTA.\n\n    Jinak bude definován alias pro každý NÁZEV, který má zadanou HODNOTU.\n    Závěrečná mezera v HODNOTĚ způsobí, že při expanzi bude následující slovo\n    zkontrolováno na substituci aliasů.\n\n    Přepínače:\n      -p\tvypíše všechny definované aliasy ve znovu použitelném formátu\n\n    Návratový kód:\n    alias vrátí pravdu, pokud nebyl zadán NÁZEV, pro který není žádný alias\n    definován.",
+	"Remove each NAME from the list of defined aliases.": "Odstraní každý NÁZEV ze seznamů definovaných aliasů.\n\n    Přepínače:\n      -a\todstraní všechny definice aliasů\n    Vrátí úspěch, pokud NÁZEV není neexistující alias."
+}

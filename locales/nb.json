@@ -1,0 +1,11 @@
+{
+	"`%s': invalid alias name": "«%s»: ugyldig alias",
+	"%s: usage: ": "%s: bruk: ",
+	"%s: not found": "%s: ikke funnet",
+	"%s: invalid option": "%s: ugyldig valg",
+	"%s is aliased to `%s'": "%s har alias «%s»\n",
+	"alias [-p] [name[=value] ... ]": "alias [-p] [navn[=verdi] … ]",
+	"unalias [-a] name [name ...]": "unalias [-a] navn [navn …]",
+	"Define or display aliases.": "Definer eller vis alias.\n\n    Hvis ingen argumenter er gitt, skriver programmet ut en liste over\n    gjeldende alias i form av «alias NAVN=verdi» til standardutdata.\n\n    Ellers defineres et alias per NAVN med en VERDI.\n    Avsluttende mellomrom i VERDI fører til at neste ord kontrolleres for\n    alias-substitusjon når aliaset utvides.\n\n    Valg:\n      -p\tSkriv ut alle definerte alias i brukbart format\n\n    Avslutningsstatus:\n    alias avslutter med positiv verdi («true»), med mindre brukeren angir et NAVN\n    som mangler definert alias.",
+	"Remove each NAME from the list of defined aliases.": "Fjern hvert NAVN fra lista over definerte alias.\n\n    Valg:\n      -a\tfjern alle alias-definisjoner.\n\n    Programmet avslutter som vellykket med mindre brukeren velger et aliasNAVN som ikke finnes."
+}

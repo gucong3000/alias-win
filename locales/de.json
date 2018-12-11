@@ -1,0 +1,11 @@
+{
+	"`%s': invalid alias name": "`%s': Ungültiger Alias Name.",
+	"%s: usage: ": "%s: Aufruf: ",
+	"%s: not found": "%s: Nicht gefunden.",
+	"%s: invalid option": "%s: Ungültige Option",
+	"%s is aliased to `%s'": "%s ist ein Alias von `%s'.\n",
+	"alias [-p] [name[=value] ... ]": "alias [-p] [Name[=Wert] ... ]",
+	"unalias [-a] name [name ...]": "unalias [-a] Name [Name ...]",
+	"Define or display aliases.": "Definiert Aliase oder zeigt sie an.\n\n    Ohne Argumente wird die Liste der Aliase (Synonyme) in der Form\n    `alias Name=Wert' auf die Standardausgabe ausgegeben.\n\n    Sonst wird ein Alias für jeden angegebenen Namen definiert wenn\n    für diesen auch ein `Wert' angegeben wurde. Wenn `Wert' mit einem\n    Leerzeichen endet, dann wird auch das nächste Wort auf Aliase\n    überprüft.\n\n    Optionen:\n      -p\tGibt alle definierten Aliase aus.\n\n    Rückgabewert:\n    Meldet Erfolg, außer wenn `Name' angegeben worden ist, für den\n    kein Alias definiert wurde.",
+	"Remove each NAME from the list of defined aliases.": "Entferne jeden angegebenen Namen von der Aliasliste.\n\n    Optionen:\n      -a\tEnferne alle Alias Definitionen.\n\n    Gibt immer Erfolg zurück, außer wenn der Alias nicht existiert."
+}

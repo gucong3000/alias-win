@@ -1,0 +1,1 @@
+unalias: 用法: unalias [-a] 名稱 [名稱 …]

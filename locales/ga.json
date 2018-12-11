@@ -1,0 +1,11 @@
+{
+	"`%s': invalid alias name": "\"%s\": ainm neamhbhailí ar mhapa eochrach",
+	"%s: usage: ": "%s: úsáid: ",
+	"%s: not found": "%s: gan aimsiú",
+	"%s: invalid option": "%s: rogha neamhbhailí",
+	"%s is aliased to `%s'": "Tá %s ailiasáilte go \"%s\".\n",
+	"alias [-p] [name[=value] ... ]": "alias [-p] [ainm[=luach] ... ]",
+	"unalias [-a] name [name ...]": "unalias [-a] ainm [ainm ...]",
+	"Define or display aliases.": "Sainigh nó taispeáin ailiasanna.\n\n    Gan argóintí, priontálann \"alias\" an liosta ailiasanna san fhoirm\n    \"alias LUACH=VALUE\" ar an ngnáth-aschur.\n\n    I ngach cás eile, sainítear ailias do gach AINM a thugtar LUACH dó.\n    Má tá spás chun deiridh LUACH, déantar an chéad fhocal eile a sheiceáil\n    le haghaidh ionadú ailias nuair a fhairsingítear an ailias.\n\n    Roghanna:\n      -p\tPriontáil gach ailias sainithe i bhfoirm inathúsáidte.\n\n    Stádas Scortha:\n    Aischuirtear an luach true mura thugtar AINM nach bhfuil\n    ailias sainithe dó.",
+	"Remove each NAME from the list of defined aliases.": "Bain gach AINM de liosta na n-ailiasanna sainithe.\n\n    Roghanna:\n      -a\tbain gach sainiú ailias.\n\n    Aischuirtear rath ach sa chás nach bhfuil AINM ann."
+}

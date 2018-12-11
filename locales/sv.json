@@ -1,0 +1,11 @@
+{
+	"`%s': invalid alias name": "”%s”: ogiltigt aliasnamn",
+	"%s: usage: ": "%s: användning: ",
+	"%s: not found": "%s: finns inte",
+	"%s: invalid option": "%s: ogiltig flagga",
+	"%s is aliased to `%s'": "%s är ett alias för ”%s”\n",
+	"alias [-p] [name[=value] ... ]": "alias [-p] [namn[=värde] ... ]",
+	"unalias [-a] name [name ...]": "unalias [-a] namn [namn ...]",
+	"Define or display aliases.": "Definiera eller visa alias.\n\n    Utan argument skriver ”alias” listan på alias på den återanvändbara formen\n    ”alias NAMN=VÄRDE” på standard ut.\n\n    Annars är ett alias definierat för varje NAMN vars VÄRDE är angivet.\n    Ett avslutande blanktecken i VÄRDE gör att nästa ord undersöks för\n    aliassubstitution när aliaset expanderas.\n\n    Flaggor:\n      -p\tskriv alla definierade alias på en återanvändbar form\n\n    Slutstatus:\n    alias returnerar sant om inte ett NAMN ges för vilket inget alias har\n    definierats.",
+	"Remove each NAME from the list of defined aliases.": "Ta bort alla NAMN från listan med definierade alias.\n\n    Flaggor:\n      -a\tta bort alla aliasdefinitioner\n\n    Returnerar framgång om inte ett NAMN inte är ett existerande alias."
+}

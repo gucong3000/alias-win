@@ -1,0 +1,11 @@
+{
+	"`%s': invalid alias name": "„%s”: érvénytelen alias-név",
+	"%s: usage: ": "%s: használat: ",
+	"%s: not found": "%s: nem található",
+	"%s: invalid option": "%s: érvénytelen kapcsoló",
+	"%s is aliased to `%s'": "%s egy alias a következőre: „%s”\n",
+	"alias [-p] [name[=value] ... ]": "alias [-p] [név[=érték] ... ]",
+	"unalias [-a] name [name ...]": "unalias [-a] név [név ...]",
+	"Define or display aliases.": "Aliasok definiálása vagy kiírása.\n\n    Argumentumok nélkül az „alias” kiír egy újrahasználható listát a meglévő\n    aliasokról „alias NÉV=ÉRTÉK' formában a szabványos kimenetre.\n\n    Különben egy NÉV nevű aliast definiál ÉRTÉK értékkel. Az ÉRTÉK végén a\n    záró szóköz lehetővé teszi a következő szó számára is az\n    aliashelyettesítést.\n\n    Kapcsolók:\n      -p\tkiír minden aliast a fenti formában\n\n    Kilépési kód:\n    igazzal tér vissza, kivéve ha nincs megadott NÉV nevű alias definiálva.",
+	"Remove each NAME from the list of defined aliases.": "Minden NÉV eltávolítása a definiált aliasok közül.\n\n    Kapcsolók:\n      -a\tminden definíció törlése\n\n    Sikeresen tér vissza, kivéve ha nincs megadott NÉV nevű alias."
+}

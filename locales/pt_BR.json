@@ -1,0 +1,11 @@
+{
+	"`%s': invalid alias name": "`%s': nome de apelido (alias) inválido",
+	"%s: usage: ": "%s: uso: ",
+	"%s: not found": "%s: não encontrado",
+	"%s: invalid option": "%s: opção inválida",
+	"%s is aliased to `%s'": "%s está apelidada para `%s'\n",
+	"alias [-p] [name[=value] ... ]": "alias [-p] [NOME[=VALOR] ... ]",
+	"unalias [-a] name [name ...]": "unalias [-a] NOME [NOME ...]",
+	"Define or display aliases.": "Define ou exibe apelidos (aliases).\n\n    Sem argumentos, `alias' mostra a lista de apelidos no formato usável\n    `alias NOME=VALOR' na saída padrão.\n\n    Do contrário, um apelido é definido para cada NOME cujo VALOR é dado.\n    Um espaço ao final em VALOR resulta na próxima palavra ser verificada\n    por substituição de apelido quando o apelido for expandido.\n\n    Opções:\n      -p\tmostra todos os apelidos definidos em uma formato usável\n\n    Status de saída:\n    `alias' retorna verdadeiro, a menos que seja fornecido um NOME para\n    o qual não se tenha definido um apelido",
+	"Remove each NAME from the list of defined aliases.": "Remove cada NOME da lista de apelidos definidos.\n\n    Opções:\n      -a\tremove todas as definições de apelidos\n\n    Retorna sucesso, a menos que NOME não seja um apelido existente."
+}

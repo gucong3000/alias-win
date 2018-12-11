@@ -1,0 +1,11 @@
+{
+	"`%s': invalid alias name": "`%s': neveljaven vzdevek",
+	"%s: usage: ": "%s: uporaba: ",
+	"%s: not found": "%s: ni mogoče najti",
+	"%s: invalid option": "%s: neveljavna možnost",
+	"%s is aliased to `%s'": "%s je drugo ime za `%s'\n",
+	"alias [-p] [name[=value] ... ]": "alias [-p] [ime[=vrednost] ... ]",
+	"unalias [-a] name [name ...]": "unalias [-a] ime [ime ...]",
+	"Define or display aliases.": "Določi ali prikaže vzdevke.\n\n    Če je `alias' brez argumentov, izpiše seznam vzdevkov v obliki za\n    večkratno uporabo `alias IME=VREDNOST' na standardnem izpisu.\n\n    V nasprotnem primeru je za vsako IME določen vzdevek, čigar\n    VREDNOST je podana.\n    Vmesni presledni znak v VREDNOSTI povzroči, da naslednjo\n    besedo preveri za zamenjavo vzdevka, ko je ta razširjen.\n\n    Možnosti:\n      -p\tIzpiši  vse določene vzdevke v obliki za večkratno uporabo\n\n    Status končanja:\n    vzdevek vrne pravilno,  razen če je predloženo IME, za katero ni\n    bil določen noben vzdevek.",
+	"Remove each NAME from the list of defined aliases.": "Odstrani vsako IME s seznama določenih vzdevkov.\n\n    Možnosti:\n      -a\todstrani vsa določila vzdevkov.\n\n    Vrne pravilno, razen če IME ni obstoječ vzdevek."
+}

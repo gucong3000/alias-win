@@ -1,0 +1,11 @@
+{
+	"`%s': invalid alias name": "« %s » : nom d'alias non valable",
+	"%s: usage: ": "%s: utilisation: ",
+	"%s: not found": "%s: non trouvé",
+	"%s: invalid option": "%s: option non valable",
+	"%s is aliased to `%s'": "%s est un alias vers « %s »\n",
+	"alias [-p] [name[=value] ... ]": "alias [-p] [nom[=valeur] ... ]",
+	"unalias [-a] name [name ...]": "unalias [-a] nom [nom ...]",
+	"Define or display aliases.": "Définit ou affiche des alias.\n\n    Sans argument, « alias » affiche la liste des alias dans le format réutilisable\n    « alias NOM=VALEUR » sur la sortie standard.\n\n    Sinon, un alias est défini pour chaque NOM dont la VALEUR est donnée.\n    Une espace à la fin de la VALEUR entraîne la vérification du mot suivant pour\n    déterminer si un alias doit être remplacé lorsque l'alias est développé.\n\n    Options :\n      -p\tAffiche tous les alias actuels dans un format réutilisable\n\n    Code de sortie :\n    « alias » renvoie la valeur vraie à moins que NOM ne soit fourni et que celui-ci n'aie\n    pas d'alias.",
+	"Remove each NAME from the list of defined aliases.": "Enlève chaque NOM de la liste des alias actuels.\n\n    Options :\n      -a\tretire toutes les définitions d'alias\n\n    Renvoie le code de succès à moins que NOM ne soit pas un alias existant."
+}

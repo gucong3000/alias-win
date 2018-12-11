@@ -1,0 +1,2 @@
+cmd: unalias: -e: 无效选项
+unalias: 用法: unalias [-a] 名称 [名称 ...]

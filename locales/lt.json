@@ -1,0 +1,11 @@
+{
+	"`%s': invalid alias name": "„%s“: netaisyklingas keymap'o pavadinimas",
+	"%s: usage: ": "%s: naudojimas: ",
+	"%s: not found": "%s: nerasta",
+	"%s: invalid option": "%s: negalimas parametras",
+	"%s is aliased to `%s'": "%s yra „%s“ sinonimas\n",
+	"alias [-p] [name[=value] ... ]": "alias [-p] [pavadinimas[=reikšmė] ... ]",
+	"unalias [-a] name [name ...]": "unalias [-a] pavadinimas [pavadinimas ...]",
+	"Define or display aliases.": "„alias“ be argumentų arba su -p nuostata išspausdina alternatyviųjų\n    vardų sąrašą formatu VARDAS=REIKŠMĖ į standartinį išvedimą.\n    Kitu atveju aprašomas alternatyvusis vardas kiekvienam VARDUI,\n    kurio REIKŠMĖ nurodyta.\nJei REIKŠMĖ baigiasi tarpo simboliu, kitame\n    žodyje ieškoma alternatyviųjų vardų keitinių, kai alternatyvusis vardas\n    išskleidžiamas.  „alias“ grąžina „true“, nebent duotas VARDAS, kuriam\n    neaprašytas joks alternatyvusis vardas.",
+	"Remove each NAME from the list of defined aliases.": "Pašalinti VARDUS iš aprašytų alternatyviųjų vardų sąrašo.  Jei nurodyta\n    nuostata -a, pašalinti visus alternatyviuosius vardus."
+}

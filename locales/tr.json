@@ -1,0 +1,11 @@
+{
+	"`%s': invalid alias name": "`%s': geçersiz takma isim",
+	"%s: usage: ": "%s: kullanım: ",
+	"%s: not found": "%s: yok",
+	"%s: invalid option": "%s: seçenek geçersiz",
+	"%s is aliased to `%s'": "%s `%s' için takma addır\n",
+	"alias [-p] [name[=value] ... ]": "alias [-p] [isim[=değer] ... ]",
+	"unalias [-a] name [name ...]": "unalias [-a] isim [isim ...]",
+	"Define or display aliases.": "Rumuz tanımla veya görüntüle.\n\n    `alias' argümansız kullanıldığında standart çıktıda kullanılabilecek tüm\n    rumuzları `alias İSİM=DEĞER' biçiminde listeler.\n\n    Diğer durumda DEĞERi verilmiş her İSİM için bir rumuz tanımlanır.\n    DEĞERdeki boşluk, rumuz genişletildiğinde sonraki kelimenin rumuz\n    ikamesi için denetlenmesine sebep olur.\n\n    Seçenekler:\n      -p\tTüm rumuzları tekrar kullanılabilir biçimde listele\n\n    Çıkış Durumu:\n    Hiçbir şeyin rumuzu olmayan bir İSİM verilmedikçe alias doğru döndürür.",
+	"Remove each NAME from the list of defined aliases.": "Tanımlı rumuzlar listesinden her İSMİ kaldır.\n\n    Seçenekler:\n      -a\ttüm rumuz tanımlamalarını kaldır.\n\n    İSİM mevcut olmayan bir rumuz olmadığı takdirde doğru\n    döndür."
+}

@@ -1,0 +1,11 @@
+{
+	"`%s': invalid alias name": "`%s': el nom de l'àlies no és valid",
+	"%s: usage: ": "%s: sintaxi: ",
+	"%s: not found": "%s: no s'ha trobat",
+	"%s: invalid option": "%s: l'opció no és vàlida",
+	"%s is aliased to `%s'": "%s és un àlies de `%s'\n",
+	"alias [-p] [name[=value] ... ]": "alias [-p] [nom[=valor] ...]",
+	"unalias [-a] name [name ...]": "unalias [-a] nom [nom ...]",
+	"Define or display aliases.": "Defineix o mostra àlies.\n\n    Sense arguments, `alias' mostra la llista d'àlies definits, en forma de\n    `alias NOM=VALOR' a la sortida estàndard.\n\n    Altrament, defineix un àlies per a cada NOM per al qual existeix un\n    VALOR.  Un espai al final de VALOR fa que la paraula següent sigui\n    susceptible de ser substituïda per un àlies quan s'expandeix l'àlies.\n\n    Opcions:\n      -p        Mostra tots els àlies definits en un format reutilitzable\n\n    Estat de sortida:\n    alias torna cert, excepte si heu proporcionat un NOM per al qual no s'ha\n    definit cap àlies.",
+	"Remove each NAME from the list of defined aliases.": "Esborra cada NOM de la llista d'àlies definits.\n\n    Opcions:\n      -a        esborra totes les definicions d'àlies.\n\n    Retorna èxit excepte si NOM no és un àlies existent."
+}

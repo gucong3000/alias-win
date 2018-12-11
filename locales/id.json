@@ -1,0 +1,11 @@
+{
+	"`%s': invalid alias name": "`%s': nama alias tidak valid",
+	"%s: usage: ": "%s: penggunaan: ",
+	"%s: not found": "%s: tidak ditemukan",
+	"%s: invalid option": "%s: pilihan tidak valid",
+	"%s is aliased to `%s'": "%s sudah dialiasi ke `%s'\n",
+	"alias [-p] [name[=value] ... ]": "alias [-p] [name[=nilai] ... ]",
+	"unalias [-a] name [name ...]": "unalias [-a] name [nama ...]",
+	"Define or display aliases.": "Definisikan atau tampilkan aliases.\n\n    `alias' dengan tanpa argumen atau dengan pilihan -p menampilkan daftar\n    dari aliases dalam bentuk alias NAMA=NILAI di keluaran standar.\n\n    Jika tidak, sebuah alias didefinisikan untuk setiap NAMA yang NILAI-nya diberikan.\n    sebuah tambahan spasi dalam NILAI menyebabkan kata selanjutnyan untuk diperikasi untuk\n    pengganti alias ketika alias diexpand.\n\n    Pilihan:\n      -p\tTampilkan seluruh alias yang terdefinisi dalam format yang berguna\n\n    Status Keluar:\n    alias mengembalikan true sampai sebuah NAMA diberikan yang mana belum ada alias yang\n    terdefinisi.",
+	"Remove each NAME from the list of defined aliases.": "Hapus setiap NAMA dari daftar yang mendefinisikan aliases.\n\n    Pilihan:\n      -a\thapus semua definisi alias.\n\n    Mengembalikan sukses kecuali sebuah NAMA bukan alias yang sudah ada."
+}

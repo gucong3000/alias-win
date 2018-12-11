@@ -1,0 +1,7 @@
+{
+	"`%s': invalid alias name": "%c%c: opţiune invalidă",
+	"%s: not found": "%s: comandă negăsită",
+	"%s: invalid option": "%c%c: opţiune invalidă",
+	"alias [-p] [name[=value] ... ]": "alias [-p] [nume[=valoare] ... ]",
+	"unalias [-a] name [name ...]": "unalias [-a] [nume ...]"
+}

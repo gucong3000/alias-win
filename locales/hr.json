@@ -1,0 +1,9 @@
+{
+	"`%s': invalid alias name": "„%s”: neispravno drugo ime",
+	"%s: usage: ": "%s: uporaba: ",
+	"%s: not found": "%s: nije pronađen",
+	"%s: invalid option": "%s: neispravna opcija",
+	"%s is aliased to `%s'": "%s je drugo ime za „%s”\n",
+	"alias [-p] [name[=value] ... ]": "alias [-p] [ime[=vrijednost] ... ]",
+	"unalias [-a] name [name ...]": "unalias [-a] ime [ime ...]"
+}

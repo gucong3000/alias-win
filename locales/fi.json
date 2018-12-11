@@ -1,0 +1,11 @@
+{
+	"`%s': invalid alias name": "”%s”: virheellinen näppäinkartan nimi",
+	"%s: usage: ": "%s: käyttö: ",
+	"%s: not found": "%s: ei löytynyt",
+	"%s: invalid option": "%s: virheellinen valitsin",
+	"%s is aliased to `%s'": "%s on aliasioitu ”%s”\n",
+	"alias [-p] [name[=value] ... ]": "alias [-p] [nimi[=arvo] ... ]",
+	"unalias [-a] name [name ...]": "unalias [-a] nimi [nimi ...]",
+	"Define or display aliases.": "Näytä tai määrittele aliaksia.\n\n    Ilman aliaksia ”alias” tulostaa vakiotulosteeseen listan aliaksista\n    hyödynnettävässä muodossa ”alias NIMI=ARVO”.\n\n    Muussa tapauksessa luodaan uusi alias jokaiselle NIMELLE,\n    jonka ARVO on annettu. ARVON jälkeinen tyhjä tarkastetaan\n    alias-korvauksen varalta aliasta laajennettaessa.\n\n    Valitsimet:\n      -p\ttulosta kaikki määritellyt aliakset hyödynnettävässä\n      \tmuodossa.\n\n    Paluuarvo:\n    alias palauttaa arvon tosi, mikäli parametriksi on annettu NIMI jonka\n    aliasta ei ole määritelty.",
+	"Remove each NAME from the list of defined aliases.": "Poista kukin NIMI määriteltyjen aliasten listasta.\n\n    Valitsimet:\n      -a\tpoista kaikki aliasmääritykset.\n\n    Palauttaa arvon tosi paitsi jos NIMI-nimistä aliasta\n    ei ole."
+}

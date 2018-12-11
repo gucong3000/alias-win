@@ -1,0 +1,11 @@
+{
+	"`%s': invalid alias name": "“%s”: tên bí danh không hợp lệ",
+	"%s: usage: ": "%s: cách dùng: ",
+	"%s: not found": "%s: không tìm thấy",
+	"%s: invalid option": "%s: tùy chọn không hợp lệ",
+	"%s is aliased to `%s'": "%s là bí danh của “%s”\n",
+	"alias [-p] [name[=value] ... ]": "alias [-p] [TÊN[=GIÁ-TRỊ] … ]",
+	"unalias [-a] name [name ...]": "unalias [-a] TÊN [TÊN …]",
+	"Define or display aliases.": "Định nghĩa hoặc hiển thị bí danh.\n\n    Không đưa ra đối số thì “alias” in danh sách các bí danh ở dạng dùng lại được\n    “alias TÊN=GIÁ-TRỊ” trên đầu ra chuẩn.\n\n    Nếu không thì một bí danh được định nghĩa cho mỗi TÊN theo giá trị\n    đưa ra. Khoảng trắng ở đâu trong GIÁ-TRỊ làm kiểm tra thay thế bí\n    danh cho từ kế tiếp, khi phân giải bí danh.\n\n    Tùy chọn:\n      -p\tin tất cả các bí danh được định nghĩa theo định dạng\n        \tcó thể dùng lại được\n\n    Trạng thái thoát:\n    alias trả lại thành công trừ khi TÊN đã cho không phải là\n    một bí danh đã được định nghĩa",
+	"Remove each NAME from the list of defined aliases.": "Gỡ bỏ TÊN khỏi danh sách các bí danh.\n\n    Tùy chọn:\n      -a\tbỏ tất cả các bí danh.\n\n    Trả lại thành công trừ khi TÊN không phải là một bí danh."
+}

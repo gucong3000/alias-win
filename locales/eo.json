@@ -1,0 +1,11 @@
+{
+	"`%s': invalid alias name": "%s: Maltaŭgas por uzi kiel alinomon",
+	"%s: usage: ": "%s: Uzmaniero: ",
+	"%s: not found": "%s: Ne trovita",
+	"%s: invalid option": "%s: Misa opcio",
+	"%s is aliased to `%s'": "„%s‟ alinomas jenon: «%s»\n",
+	"alias [-p] [name[=value] ... ]": "alias [-p] [NOMO[=VALORO] ... ]",
+	"unalias [-a] name [name ...]": "unalias [-a] NOMO [NOMO ...]",
+	"Define or display aliases.": "Difinu aŭ listigu alinomojn.\n\n    Sen argumento aŭ kun la opcio  -p  „alias‟ eligas en la ĉefeligujon\n    la liston da alinomoj en la reuzebla formo «alias NOMO=VALORO».\n\n    Alie, ĉiu NOMO iĝas difinita kiel alinomo por indikita VALORO.\n    Vosta spaceto en la VALORO kaŭzas teston, ĉu la sekva vorto estas\n    alinome anstataŭigenda ĉe la komputo de la alinomo.\n\n    Opcioj:\n    -p\teligu ĉiujn difinitajn alinomojn en reuzebla formo.\n\n    Elirstato:\n    La komando „alias‟ liveras „true‟ krom se aperas NOMO ne difinita\n    alinome.",
+	"Remove each NAME from the list of defined aliases.": "Forigu la NOMOjn el la listo de difinitaj alinomoj.\n\n    Opcioj:\n    -a\tSe enestas la opcio „-a‟, ĉiujn alinomojn forigu\n\n    Liveru sukceson krom se name ne estas difinita alinome."
+}

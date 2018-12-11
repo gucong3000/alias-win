@@ -1,0 +1,11 @@
+{
+	"`%s': invalid alias name": "\"%s\": ugyldigt tastetildelingsnavn",
+	"%s: usage: ": "%s: brug: ",
+	"%s: not found": "%s: ikke fundet",
+	"%s: invalid option": "%s: ugyldigt tilvalg",
+	"%s is aliased to `%s'": "%s er aliasset til \"%s\"\n",
+	"alias [-p] [name[=value] ... ]": "alias [-p] [navn[=værdi] ... ]",
+	"unalias [-a] name [name ...]": "unalias [-a] navn [navn ...]",
+	"Define or display aliases.": "Definer eller vis aliasser.\n\n    Uden argumenter vil \"alias\" udskrive en liste af aliasser på den\n    genanvendelige form alias NAVN=VÆRDI til standardoutput.\n\n    Ellers vil der blive defineret et alias for hvert NAVN, som der er an-\n    givet en VÆRDI til. Et efterfølgende mellemrum i VÆRDI vil medføre,\n    at det næste ord vil blive kontrolleret for alias-udskiftning, når\n    aliasset udvides.\n\n    Tilvalg:\n      -p\tUdskriver alle definerede aliasser i et genanvendelig format\n\n    Afslutningsstatus:\n    alias returnerer sand med mindre der gives et NAVN som der ikke er\n    defineret noget alias for.",
+	"Remove each NAME from the list of defined aliases.": "Fjern hvert NAVN fra listen af definerede aliasser.\n\n    Tilvalg:\n      -a\tfjern alle aliasdefinitioner.\n\n    Returner succes med mindre et NAVN ikke er et eksisterende alias."
+}

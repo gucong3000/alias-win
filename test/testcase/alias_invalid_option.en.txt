@@ -1,0 +1,2 @@
+cmd: alias: -e: invalid option
+alias: usage: alias [-p] [name[=value] ... ]

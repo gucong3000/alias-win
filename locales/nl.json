@@ -1,0 +1,11 @@
+{
+	"`%s': invalid alias name": "'%s': ongeldige naam voor alias",
+	"%s: usage: ": "%s: Gebruik: ",
+	"%s: not found": "%s: niet gevonden",
+	"%s: invalid option": "%s: ongeldige optie",
+	"%s is aliased to `%s'": "%s is een alias voor '%s'\n",
+	"alias [-p] [name[=value] ... ]": "alias [-p] [NAAM[=WAARDE] ... ]",
+	"unalias [-a] name [name ...]": "unalias [-a] NAAM [NAAM...]",
+	"Define or display aliases.": "Aliassen definiëren of tonen.\n\n    Zonder argumenten, of met optie '-p', toont 'alias' op standaarduitvoer\n    de huidige lijst van aliassen in de vorm: alias NAAM='VERVANGING'.\n    Met argumenten, wordt er een alias gedefinieerd voor elke NAAM waarvoor\n    een VERVANGING gegeven is.  Als de VERVANGING eindigt op een spatie, dan\n    wordt bij aliasexpansie ook van het nakomende woord gecontroleerd of het\n    een alias is.\n\n    De afsluitwaarde is 0, tenzij er een NAAM gegeven is waarvoor geen alias\n    gedefinieerd is.",
+	"Remove each NAME from the list of defined aliases.": "Elke gegeven NAAM verwijderen uit de lijst van gedefinieerde aliassen.\n\n    Met optie '-a' worden alle gedefinieerde aliassen verwijderd.\n\n    De afsluitwaarde is 0, tenzij NAAM geen bestaande alias is."
+}

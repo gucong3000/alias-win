@@ -1,0 +1,2 @@
+cmd: alias: -e: 无效选项
+alias: 用法: alias [-p] [名称[=值] ... ]

@@ -1,0 +1,95 @@
+{
+  "name": "alias-win",
+  "version": "1.0.0",
+  "description": "An effort to encapsulate aliases used by the console of current process.",
+  "keywords": [
+    "alias",
+    "unalias",
+    "windows",
+    "doskey",
+    "console",
+    "terminal",
+    "cmd",
+    "AddConsoleAlias",
+    "GetConsoleAlias",
+    "GetConsoleAliases",
+    "GetConsoleAliasesLength"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/gucong3000/alias#readme",
+  "author": "gucong3000",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gucong3000/alias.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gucong3000/alias/issues"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "@babel/runtime": "^7.2.0",
+    "node-pre-gyp": "^0.12.0",
+    "strip-ansi": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/register": "^7.0.0",
+    "chai": "^4.2.0",
+    "codecov": "^3.1.0",
+    "eclint": "^2.8.1",
+    "eslint": "^5.10.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "fs-extra": "^7.0.1",
+    "gettext-parser": "^3.1.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
+  },
+  "bin": {
+    "alias": "bin/alias.js",
+    "unalias": "bin/unalias.js"
+  },
+  "binary": {
+    "module_name": "alias",
+    "module_path": "./lib/binding/{platform}-{arch}-{node_napi_label}",
+    "package_name": "{platform}-{arch}-{node_napi_label}.tar.gz",
+    "host": "https://github.com/gucong3000/alias-win/releases/download/",
+    "remote_path": "v{version}",
+    "napi_versions": [
+      1,
+      2,
+      3
+    ]
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text-summary"
+    ],
+    "cache": true
+  },
+  "scripts": {
+    "install": "node-pre-gyp install --fallback-to-build || echo fallback",
+    "build:babel": "rm -rf lib/**/*.js && babel src --out-dir lib",
+    "build:gyp": "node-pre-gyp rebuild --build-from-source && node-pre-gyp package",
+    "build:locales": "node lib/gettext && tar -zcvf ./locales.tar.gz locales",
+    "build": "npm run build:babel && npm run build:gyp && npm run build:locales",
+    "unit": "nyc mocha --require test/polyfill --no-timeouts",
+    "lint:eclint": "eclint check $(git ls-files | tee /tmp/git-files)",
+    "lint:eslint": "eslint --ignore-pattern ! $(grep \"\\.js$\" /tmp/git-files)",
+    "lint": "npm run lint:eclint && npm run lint:eslint",
+    "pretest": "env npm run lint --script-shell=/bin/sh",
+    "test": "npm run unit",
+    "report-coverage": "codecov"
+  },
+  "gypfile": true,
+  "os": [
+    "win32"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+	"`%s': invalid alias name": "«%s»: μη έγκυρο ψευδώνημο",
+	"%s: usage: ": "%s: χρήση: ",
+	"%s: not found": "%s: δεν βρέθηκε",
+	"%s: invalid option": "%s: μη έγκυρη επιλογή",
+	"%s is aliased to `%s'": "%s είναι ψευδώνημο του «%s»\n",
+	"alias [-p] [name[=value] ... ]": "alias [-p] [name[=value] ... ]",
+	"unalias [-a] name [name ...]": "unalias [-a] name [name ...]",
+	"Remove each NAME from the list of defined aliases.": "Αφαίρεση κάθε ΟΝΟΜΑτος από τη λίστα των καθορισμένων ψευδωνύμων.\n\n    Επιλογές:\n      -a\tαφαίρεση όλων των ψευδωνύμων.\n\n    Επιστρέφει επιτυχία εκτός αν το ΟΝΟΜΑ δεν είναι υπαρκτό ψευδώνυμο."
+}

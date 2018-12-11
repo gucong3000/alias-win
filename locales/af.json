@@ -1,0 +1,7 @@
+{
+	"`%s': invalid alias name": "%s: illegal option -- %c\n",
+	"%s: not found": "%s: bevel nie gevind nie",
+	"%s: invalid option": "%s: illegal option -- %c\n",
+	"alias [-p] [name[=value] ... ]": "E418: Ongeldige waarde: %s",
+	"unalias [-a] name [name ...]": "Volle Naam: "
+}
