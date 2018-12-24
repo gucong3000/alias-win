@@ -57,6 +57,7 @@ async function bash () {
 	);
 	await git([
 		"pull",
+		"--depth=1",
 		"origin",
 		"master",
 	]);

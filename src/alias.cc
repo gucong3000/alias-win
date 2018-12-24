@@ -18,8 +18,9 @@ static WCHAR* UTF8toWCHAR(
 	// https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar
 	outputSize = MultiByteToWideChar(CP_UTF8, 0, inputString, -1, NULL, 0);
 
-	if (outputSize == 0)
+	if (outputSize == 0) {
 		return NULL;
+	}
 
 	outputString = (WCHAR*) malloc(outputSize * sizeof(WCHAR));
 
@@ -28,8 +29,7 @@ static WCHAR* UTF8toWCHAR(
 		return NULL;
 	}
 
-	if (MultiByteToWideChar(CP_UTF8, 0, inputString, -1, outputString, outputSize) != outputSize)
-	{
+	if (MultiByteToWideChar(CP_UTF8, 0, inputString, -1, outputString, outputSize) != outputSize) {
 		free(outputString);
 		return NULL;
 	}
