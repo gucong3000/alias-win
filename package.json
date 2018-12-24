@@ -36,6 +36,7 @@
     "@babel/core": "^7.2.2",
     "@babel/plugin-transform-runtime": "^7.2.0",
     "@babel/preset-env": "^7.2.3",
+    "@babel/preset-typescript": "^7.1.0",
     "@babel/register": "^7.0.0",
     "chai": "^4.2.0",
     "codecov": "^3.1.0",
@@ -49,7 +50,8 @@
     "fs-extra": "^7.0.1",
     "gettext-parser": "^3.1.0",
     "mocha": "^5.2.0",
-    "nyc": "^13.1.0"
+    "nyc": "^13.1.0",
+    "typescript": "^3.2.2"
   },
   "bin": {
     "alias": "bin/alias.js",
@@ -76,14 +78,15 @@
   },
   "scripts": {
     "install": "node-pre-gyp install --fallback-to-build || echo fallback",
-    "build:babel": "rm -rf lib/**/*.js && babel src --out-dir lib",
+    "build:babel": "rm -rf lib/**/*.js && babel src --out-dir lib --extensions \".ts,.js\"",
     "build:gyp": "node-pre-gyp rebuild --build-from-source && node-pre-gyp package",
     "build:locales": "node lib/gettext && tar -zcvf ./locales.tar.gz locales",
     "build": "npm run build:babel && npm run build:gyp && npm run build:locales",
     "unit": "nyc mocha --require test/polyfill --no-timeouts",
     "lint:eclint": "eclint check $(git ls-files | tee /tmp/git-files)",
-    "lint:eslint": "eslint --ignore-pattern ! $(grep \"\\.js$\" /tmp/git-files)",
-    "lint": "npm run lint:eclint && npm run lint:eslint",
+    "lint:eslint": "eslint --ignore-pattern ! $(grep \"\\.[tj]s$\" /tmp/git-files)",
+    "lint:tsc": "tsc $(grep \"\\.ts$\" /tmp/git-files)",
+    "lint": "npm run lint:eclint && npm run lint:tsc && npm run lint:eslint",
     "pretest": "env npm run lint --script-shell=/bin/sh",
     "test": "npm run unit",
     "report-coverage": "codecov"

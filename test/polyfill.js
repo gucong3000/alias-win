@@ -3,6 +3,7 @@ const util = require("util");
 if (!util.promisify) {
 	util.promisify = require("util.promisify");
 }
-if (parseInt(process.versions.v8) < 6) {
-	require("@babel/register");
-}
+const babel = require("@babel/core");
+require("@babel/register")({
+	extensions: [".ts", ".tsx"].concat(babel.DEFAULT_EXTENSIONS),
+});
